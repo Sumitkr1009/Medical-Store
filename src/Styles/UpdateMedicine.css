@@ -1,0 +1,131 @@
+/* Styling for the medicine management page */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the form and table */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #34495e;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px 0;
+    color: #34495e;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+form h3 {
+    margin-bottom: 20px;
+    color: #2980b9;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+form button:hover {
+    background-color: #1e6f93;
+}
+
+form button[type="submit"] {
+    background-color: #27ae60;
+}
+
+form button[type="submit"]:hover {
+    background-color: #1e8449;
+}
+
+form button[type="button"] {
+    background-color: #e74c3c;
+}
+
+form button[type="button"]:hover {
+    background-color: #c0392b;
+}
+
+/* Medicine list table styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #2980b9;
+    color: white;
+}
+
+thead th {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td button {
+    padding: 8px 12px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+tbody td button:hover {
+    background-color: #1e6f93;
+}
+
+tbody td button:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+tbody td button:nth-child(2):hover {
+    background-color: #c0392b;
+}
+
+/* Error message styling */
+p {
+    color: red;
+    text-align: center;
+}

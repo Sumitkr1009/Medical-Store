@@ -1,0 +1,147 @@
+.add-sale-container {
+    max-width: 900px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.add-sale-card {
+    padding: 20px;
+}
+
+
+.add-sale-card h2 {
+    text-align: center; 
+    color: #333; 
+    font-size: 2rem; 
+}
+
+.message {
+    text-align: center; 
+    font-weight: bold;
+    margin: 10px 0; 
+}
+
+.success {
+    color: #28a745; 
+}
+
+.error {
+    color: #dc3545; 
+}
+
+.medicine-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin-bottom: 20px; 
+}
+
+.medicine-list li {
+    background-color: #f8f9fa; 
+    border-radius: 5px; 
+    margin: 10px 0; 
+    padding: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column; 
+}
+
+.medicine-list li div {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.medicine-list button {
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+.medicine-list button:hover {
+    background-color: #0056b3; 
+}
+
+.bill {
+    margin-top: 20px;
+}
+
+
+.bill table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+.bill th,
+.bill td {
+    border: 1px solid #dee2e6; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+.bill th {
+    background-color: #007bff; 
+    color: white;
+}
+
+.summary {
+    margin-top: 20px; 
+    padding: 10px;
+    background-color: #f1f1f1; 
+    border-radius: 5px; 
+}
+
+.summary p {
+    margin: 5px 0;
+}
+
+
+.complete-sale-button {
+    background-color: #28a745; 
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+
+.complete-sale-button:hover {
+    background-color: #218838; 
+}
+
+
+.redirect-text {
+    text-align: center; 
+    margin-top: 20px; 
+    color: #007bff; 
+    cursor: pointer; 
+}
+
+.redirect-text span:hover {
+    text-decoration: underline; 
+}
+
+@media (max-width: 600px) {
+    .add-sale-container {
+        padding: 15px; 
+    }
+
+    .add-sale-card h2 {
+        font-size: 1.5rem; 
+    }
+
+    .bill table {
+        font-size: 0.9rem; 
+    }
+}
